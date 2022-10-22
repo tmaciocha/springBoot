@@ -14,8 +14,9 @@ public class ToLearnController {
     public List<ToLearn> toLearnList() {
         return Arrays.asList(
                 new ToLearn(1,"Learn Microservices", "Youtube"),
-                new ToLearn(2,"Spring Security", "Udemy")
-
+                new ToLearn(2,"Spring Security", "Udemy"),
+                new ToLearn(3,"REST Apps", "internet"),
+                new ToLearn(4,"Swagger", "internet")
         );
     }
 }
